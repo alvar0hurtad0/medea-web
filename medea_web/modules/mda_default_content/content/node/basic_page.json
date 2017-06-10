@@ -1,0 +1,145 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/1?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/basic_page"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/basic_page\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/basic_page\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 1
+        }
+    ],
+    "uuid": [
+        {
+            "value": "0ee04150-f2a1-406c-b57b-3f78143b40df"
+        }
+    ],
+    "vid": [
+        {
+            "value": 1
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "basic_page"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Inicio",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/basic_page\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "6b66a734-2cbc-488b-91e6-2c5c77d06556"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/basic_page\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "6b66a734-2cbc-488b-91e6-2c5c77d06556"
+                    }
+                ]
+            }
+        ]
+    },
+    "created": [
+        {
+            "value": 1496419026,
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": 1496420568,
+            "lang": "en"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": 1496419048
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "\r\n\r\nEl 1 de Abril de 1998 la CLINICA MEDEA abri\u00f3 sus puertas.\r\n\r\nHoy diecisiete a\u00f1os despu\u00e9s, con algunas canas y dos hijas preciosas, no hemos perdido la ilusi\u00f3n que nos llev\u00f3 a empezar nuestra andadura en la CLINICA MEDEA.\r\n\r\nTenemos la enorme suerte de dedicar nuestras vidas a nuestra pasi\u00f3n, la medicina y los animales, intentando cada d\u00eda ser mejores profesionales y personas.\r\n\r\nLa CLINICA MEDEA no s\u00f3lo est\u00e1 formada por las personas que trabajamos en ella, MEDEA sois todos vosotros, los que ya nos conoc\u00e9is y los que nos conocer\u00e9is.\r\n\r\nVosotros hac\u00e9is posible este proyecto y que cada d\u00eda nos ilusionemos por lo que hacemos y queramos seguir.\r\n\r\nPodr\u00edamos explicaros las t\u00e9cnicas novedosas que aplicamos en tratamientos y cirug\u00edas, los aparatos diagn\u00f3sticos tan estupendos que tenemos, nuestro dilatado curriculum, los cursos que hemos realizado, pero al final somos personas que compartimos el amor y el respeto por los animales y utilizamos nuestro conocimiento para ponerlo a vuestro servicio, con profesionalidad y \u00e9tica.\r\n\r\nQuiero agradecer desde aqu\u00ed, a todos los que han confiado en nosotros, que sois muchos m\u00e1s, de los que pod\u00edamos imaginar cuando empezamos nuestra andadura profesional.\r\n\r\nQuiero aprovechar estas l\u00edneas para agradecer, tambi\u00e9n, a nuestras familias, la compresi\u00f3n por no poder estar algunas veces con ellos en fechas se\u00f1aladas, porque nuestro trabajo, que al fin y al cabo es nuestra vida, no entiende de festivos.\r\n\r\nNos vemos en MEDEA!!!!!!\r\n\r\nCharo.\r\n",
+            "format": "plain_text",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

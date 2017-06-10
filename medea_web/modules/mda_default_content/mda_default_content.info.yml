@@ -1,0 +1,9 @@
+name: 'Medea Default content'
+type: module
+hidden: TRUE
+description: 'Default content for medea website'
+package: medea
+core: 8.x
+dependencies:
+  - default_content:default_content
+

@@ -1,0 +1,20 @@
+name: medea web
+type: profile
+description: 'custom profile.'
+version: VERSION
+core: 8.x
+dependencies:
+  - node
+  - block
+  - block_content
+  - dblog
+  - page_cache
+  - dynamic_page_cache
+  - toolbar
+  - config
+  - contact
+  - text
+
+themes:
+  - seven
+  - medea

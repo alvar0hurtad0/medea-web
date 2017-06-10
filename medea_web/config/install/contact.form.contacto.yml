@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+id: contacto
+label: Contacto
+recipients:
+  - info@clinicamedea.com
+reply: ''
+weight: 0
+message: ''
+redirect: /

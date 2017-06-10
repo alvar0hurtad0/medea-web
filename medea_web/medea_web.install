@@ -1,0 +1,37 @@
+<?php
+
+/**
+ * @file
+ * Install, update and uninstall functions for the installation profile.
+ */
+
+use Drupal\user\Entity\User;
+use Drupal\user\RoleInterface;
+
+/**
+ * Implements hook_install().
+ *
+ * Performs actions to set up the site for this profile.
+ *
+ * @see system_install()
+ */
+function medea_web_install() {
+  // Disable the user pictures on nodes.
+  \Drupal::configFactory()->getEditable('system.theme.global')->set('features.node_user_picture', FALSE)->save(TRUE);
+
+  // Allow visitor account creation, but with administrative approval.
+  \Drupal::configFactory()->getEditable('user.settings')->set('register', USER_REGISTER_VISITORS_ADMINISTRATIVE_APPROVAL)->save(TRUE);
+
+  // Enable default permissions for system roles.
+  user_role_grant_permissions(RoleInterface::ANONYMOUS_ID, ['access comments']);
+  user_role_grant_permissions(RoleInterface::AUTHENTICATED_ID, ['access comments', 'post comments', 'skip comment approval']);
+
+  // Assign user 1 the "administrator" role.
+  $user = User::load(1);
+  $user->roles[] = 'administrator';
+  $user->save();
+
+  // Enable the admin theme.
+  \Drupal::configFactory()->getEditable('node.settings')->set('use_admin_theme', TRUE)->save(TRUE);
+
+}
