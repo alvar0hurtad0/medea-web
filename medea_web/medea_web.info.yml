@@ -14,6 +14,10 @@ dependencies:
   - config
   - contact
   - text
+  - image
+  - views
+  - menu_ui
+  - path
 
 themes:
   - seven
